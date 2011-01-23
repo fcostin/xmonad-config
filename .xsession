@@ -12,4 +12,11 @@ feh --bg-fill '/home/fcostin/Pictures/top-wiki-photos/360-degree_Panorama_of_the
 # 	--SetPartialStrut true --expand true --width 10 \
 # 	-- transparent true --height 12 &
 
+
+# fire up network manager applet
+# -- todo : at some point it will request a password it has saved ...
+# figure out how to automate this
+
+nm-applet --sm-disable &
+
 xmonad
