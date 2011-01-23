@@ -1,4 +1,6 @@
-my xmonad config
+my xmonad config, largely based upon
+
+	http://www.haskell.org/haskellwiki/Xmonad/Config_archive/John_Goerzen's_Configuration
 
 Dependencies:
 
