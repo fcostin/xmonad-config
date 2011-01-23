@@ -1,1 +1,13 @@
-xmonad config
+my xmonad config
+
+Dependencies:
+
+	xmonad, of course
+	xmobar, for the status bar up the top
+	feh, to set the background
+
+Confusion:
+
+	choosing the 'xmonad' session when logging in doesn't seem to execute .xsession
+	instead, choose the user defined session
+		- there is probably some way to define a better name for this
