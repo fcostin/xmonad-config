@@ -7,6 +7,7 @@ Dependencies:
 	xmonad, of course
 	xmobar, for the status bar up the top
 	feh, to set the background
+	scrot, for taking screenies
 
 Confusion:
 
