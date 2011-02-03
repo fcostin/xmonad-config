@@ -18,7 +18,7 @@ nautilus --no-desktop -n &
 # fire up network manager applet
 # -- todo : at some point it will request a password it has saved ...
 # figure out how to automate this
-
-nm-applet --sm-disable &
+# this seems pretty broken
+# nm-applet --sm-disable &
 
 xmonad
