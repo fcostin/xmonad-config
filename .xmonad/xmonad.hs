@@ -20,7 +20,3 @@ main = do
 					ppTitle = xmobarColor "green" "" . shorten 50
 			}
 		}
-		`additionalKeys` [
-			-- bind printscreen to exec scrot... which prints screen
-			((0, xK_Print), spawn "scrot")
-		]
