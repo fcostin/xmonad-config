@@ -1,16 +1,15 @@
-my xmonad config, largely based upon
+a simlpe xmonad config, largely based upon
 
 	http://www.haskell.org/haskellwiki/Xmonad/Config_archive/John_Goerzen's_Configuration
 
 Dependencies:
 
-	xmonad, of course
-	xmobar, for the status bar up the top
-	feh, to set the background
-	scrot, for taking screenies
+	xmonad
+	xmobar
 
-Confusion:
+Bonus unrelated tricks:
 
-	choosing the 'xmonad' session when logging in doesn't seem to execute .xsession
-	instead, choose the user defined session
-		- there is probably some way to define a better name for this
+	1. to disable the pc speaker, append the line
+		blacklist pcspkr
+	to
+		/etc/modprobe.d/blacklist.conf
